@@ -1,0 +1,185 @@
+body {
+	background-image: url("../img/bg2.jpg");
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: "Times New Roman", serif;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+	background-color:rgba(0,0,0,.3);
+
+}
+
+
+
+p {
+	letter-spacing: 0.03em;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: #000;	
+	text-decoration: none;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	/* border: 1px solid red; */
+}
+
+.overlay {
+	height: 0%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.9);
+	overflow-y: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color:  #53eb25b4;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+ .overlay {overflow-y: auto;}
+ .overlay a {font-size: 30px}
+ .overlay .closebtn {
+	font-size: 40px;
+	top: 15px;
+	right: 35px;
+ }
+}
+
+span.btn {
+	
+	font-size:40px;
+	cursor:pointer;
+	color: white;
+}
+
+span.btn:hover {
+	color: #53eb25b4;
+	transition: .3s;
+}
+
+.offer-justify {
+	
+	justify-content: space-between;
+	display: flex;
+	
+}
+
+.offer-title {
+	color: white;
+	letter-spacing: 0.05em;
+	
+}
+
+.Name_1 {
+	color: #53eb25b4;
+	font-weight: 600;
+	font-size: 40px;
+	text-shadow: 0 2px 3px black ;
+	stroke: 2px #000;
+}
+
+.Name {
+	margin-bottom: 15px;
+	margin-top: 150px;
+}
+
+.inv {
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.btn-offer {
+	text-decoration: none;
+	display: inline-block;
+	width: 140px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 10px;
+	border-color: black 2px;
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	font-weight: 600;
+	color: #524f4e;
+	background: white;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+	transition: .3s;
+ }
+
+ .btn-offer:hover {
+	background:  #53eb25b4;
+	box-shadow: 0 10px 15px rgba(46, 229, 157, .4);
+	color: white;
+	transform: translateY(-3px);
+}
+
+.profile {
+	height: 400px;
+	width: 400px;
+	float: right; 
+	margin-top: -150px ; 
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	transition: .3s;
+}
+
+.profile:hover {
+	height: 405px;
+	width: 405px;
+}
+
+.line {
+	border: none;
+	margin-top: 80px;
+}
+
+.nav-top {
+	display: flex;
+	justify-content: space-between;
+}
+
